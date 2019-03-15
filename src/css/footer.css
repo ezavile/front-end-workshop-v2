@@ -1,0 +1,37 @@
+.hp_Footer {
+  background-color: #3370bc;
+  color: white;
+  padding: 24px;
+}
+
+.hp_Footer-copy,
+.hp_Footer-socialNetwork,
+.hp_Footer-socialNetwork-item {
+  display: inline-block;
+}
+
+.hp_Footer-copy {
+  font-size: 10px;
+}
+
+.hp_Footer-socialNetwork {
+  float: right;
+  font-size: 16px;
+}
+
+.hp_Footer-socialNetwork-item {
+  margin: 0 4px;
+  transition: color 0.5s ease;
+}
+
+.hp_Footer-socialNetwork-item:hover {
+  color: #e6495e;
+}
+
+.hp_Footer-socialNetwork-item:first-child {
+  margin-left: 0;
+}
+
+.hp_Footer-socialNetwork-item:last-child {
+  margin-right: 0;
+}

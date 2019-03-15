@@ -1,0 +1,21 @@
+body {
+  color: #707573;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  line-height: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #3370bc;
+  font-family: 'Baloo Thambi', cursive;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}

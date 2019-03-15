@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'hopets';
+  src:
+    url('./fonts/hopets.ttf?xmmber') format('truetype'),
+    url('./fonts/hopets.woff?xmmber') format('woff'),
+    url('./fonts/hopets.svg?xmmber#hopets') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'hopets' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.hp_icon-tag:before {
+  content: "\e904";
+}
+.hp_icon-instagram:before {
+  content: "\e900";
+}
+.hp_icon-youtube:before {
+  content: "\e901";
+}
+.hp_icon-twitter:before {
+  content: "\e902";
+}
+.hp_icon-facebook:before {
+  content: "\e903";
+}
