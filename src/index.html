@@ -5,8 +5,43 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Hopets</title>
+  <style>
+    /* universal */
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    /* id */
+    #recentCampaignsTitle {
+      padding: 24px;
+    }
+
+    /* element */
+    h2 {
+      color: #3370bc;
+      font-size: 32px;
+    }
+
+    /* class */
+    .CampaignCard {
+      background-color: white;
+      padding: 24px;
+    }
+
+    /* descendant */
+    .CampaignCard h3 {
+      margin-bottom: 8px;
+    }
+
+    /* Adjacent sibling */
+    .CampaignCard h3 + div {
+      font-size: 14px;
+      color: #777;
+    }
+  </style>
 </head>
-<body>
+<body style="background-color: #f1f1f1;">
   <header>
     <h1>Hopets</h1>
     <nav>
@@ -24,18 +59,18 @@
   <main>
     <section>
       <div>
-        <h2>Welcome to Hopets!</h2>
+        <h2 style="border-bottom: 2px solid #e6495e; padding-bottom: 8px; margin-bottom: 16px;">Welcome to Hopets!</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque culpa molestias quae corporis itaque, delectus maiores inventore. Nesciunt error placeat debitis ex deserunt dignissimos. Deserunt, sed. Nostrum soluta itaque voluptates!
         </p>
       </div>
     </section>
     <section>
-      <div>
+      <div id="recentCampaignsTitle">
         <h2>Recent Campaigns</h2>
       </div>
       <div>
-        <article>
+        <article class="CampaignCard">
           <div>add image</div>
           <div>
             <div>
