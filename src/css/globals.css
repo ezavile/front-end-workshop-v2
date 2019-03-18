@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   color: #707573;
   font-family: 'Poppins', sans-serif;

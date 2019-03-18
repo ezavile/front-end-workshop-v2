@@ -1,0 +1,20 @@
+.hp_Title-container {
+  padding: 24px;
+}
+
+.hp_Title {
+  font-size: 32px;
+  padding-bottom: 8px;
+  position: relative;
+  line-height: 1;
+}
+
+.hp_Title::before {
+  content: '';
+  background-color: #e6495e;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 70px;
+  height: 2px;
+}

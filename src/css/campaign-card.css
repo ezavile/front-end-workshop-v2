@@ -1,0 +1,52 @@
+.hp_CampaignCard {
+  background-color: white;
+  box-shadow: 2px 0 20px 0 rgba(0, 0, 0, 0.1);
+  padding: 224px 24px 24px;
+  position: relative;
+}
+
+.hp_CampaignCard-cover {
+  background-color: #707573;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 200px;
+}
+
+.hp_CampaignCard-header {
+  margin-bottom: 16px;
+}
+
+.hp_CampaignCard-title {
+  font-size: 24px;
+}
+
+.hp_CampaignCard-meta {
+  font-size: 12px;
+}
+
+.hp_CampaignCard-date {
+  margin-right: 4px;
+}
+
+.hp_CampaignCard-tag {
+  color: white;
+  background-color: #72c02c;
+  padding: 1px 6px;
+}
+
+.hp_CampaignCard-tag::before {
+  font-family: 'hopets';
+  content: "\e904";
+  margin-right: 6px;
+}
+
+.hp_CampaignCard-summary {
+  margin-bottom: 16px;
+}
+
+.hp_CampaignCard-footer {
+  display: flex;
+  justify-content: space-between;
+}
