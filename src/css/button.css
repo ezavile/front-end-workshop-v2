@@ -1,0 +1,12 @@
+.hp_Button {
+  color: white;
+  background-color: #e6495e;
+  border: 0;
+  padding: 16px;
+  text-transform: uppercase;
+  transition: background-color 0.5s ease;
+}
+
+.hp_Button:hover {
+  background-color: #de1e38;
+}

@@ -1,0 +1,9 @@
+.hp_Avatar {
+  display: flex;
+  align-items: center;
+}
+
+.hp_Avatar img {
+  border-radius: 50%;
+  margin-right: 8px;
+}
