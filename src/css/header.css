@@ -1,0 +1,25 @@
+.hp_Header {
+  padding: 4px 16px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.hp_Header-logo {
+  width: 120px;
+}
+
+.hp_Header-menu,
+.hp_Header-menu-list {
+  display: flex;
+  align-items: center;
+}
+
+.hp_Header-menu-list li:first-child {
+  margin-right: 8px;
+}
