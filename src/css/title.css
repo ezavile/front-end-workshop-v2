@@ -18,3 +18,14 @@
   width: 70px;
   height: 2px;
 }
+
+/* Medium >= 768px and < 992px */
+@media screen and (min-width: 768px) {
+  .hp_Title-container {
+    text-align: center;
+  }
+
+  .hp_Title {
+    display: inline-block;
+  }
+}

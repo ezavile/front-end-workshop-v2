@@ -1,8 +1,13 @@
 .hp_CampaignCard {
   background-color: white;
   box-shadow: 2px 0 20px 0 rgba(0, 0, 0, 0.1);
+  margin-top: 24px;
   padding: 224px 24px 24px;
   position: relative;
+}
+
+.hp_CampaignCard:first-child {
+  margin-top: 0;
 }
 
 .hp_CampaignCard-cover {
@@ -51,4 +56,32 @@
 .hp_CampaignCard-footer {
   display: flex;
   justify-content: space-between;
+}
+
+/* Extra small < 576px (by default) */
+
+/* Small >= 576px and < 768px */
+@media screen and (min-width: 576px) {
+  .hp_CampaignCard {
+    padding-top: 24px;
+    padding-left: 224px;
+  }
+
+  .hp_CampaignCard-cover {
+    height: 100%;
+    width: 200px;
+  }
+}
+
+/* Large >= 992px and < 1200px */
+@media screen and (min-width: 992px) {
+  .hp_CampaignCard {
+    width: calc(50% - 12px);
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .hp_CampaignCard:nth-child(2) {
+    margin-top: 0;
+  }
 }

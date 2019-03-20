@@ -22,3 +22,31 @@
   right: 0;
   background-color: rgba(0, 0, 0, 0.7);
 }
+
+.hp_Cover-video {
+  display: none;
+}
+
+/* Medium >= 768px and < 992px */
+@media screen and (min-width: 768px) {
+  .hp_Cover-msg {
+    text-align: center;
+  }
+}
+
+/* Large >= 992px and < 1200px */
+@media screen and (min-width: 992px) {
+  .hp_Cover {
+    height: auto;
+    background-image: url(./../images/puppiness.jpg);
+  }
+
+  .hp_Cover-msg {
+    display: none;
+  }
+
+  .hp_Cover-video {
+    display: block;
+    width: 100%;
+  }
+}
