@@ -1,0 +1,24 @@
+.hp_Cover {
+  height: 100vh;
+  background-image: url(../images/cover.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.hp_Cover .hp_Title {
+  margin-bottom: 24px;
+}
+
+.hp_Cover-msg {
+  color: white;
+  padding: 24px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+}

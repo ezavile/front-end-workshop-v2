@@ -6,7 +6,9 @@
 }
 
 .hp_CampaignCard-cover {
-  background-color: #707573;
+  background-image: url(https://duaw26jehqd4r.cloudfront.net/items/1M0C3r3X2t0x2q342A2A/benito.png?v=933367f2);
+  background-position: center;
+  background-size: cover;
   position: absolute;
   top: 0;
   left: 0;
