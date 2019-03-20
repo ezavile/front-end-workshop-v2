@@ -1,5 +1,5 @@
 .hp_Header {
-  padding: 4px 16px;
+  padding: 0.25em 1em;
   background-color: white;
   display: flex;
   justify-content: space-between;
@@ -11,7 +11,7 @@
 }
 
 .hp_Header-logo {
-  width: 120px;
+  width: 7.5em;
 }
 
 .hp_Header-menu,
@@ -21,5 +21,5 @@
 }
 
 .hp_Header-menu-list li:first-child {
-  margin-right: 8px;
+  margin-right: 0.5em;
 }

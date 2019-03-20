@@ -10,12 +10,12 @@
 }
 
 .hp_Cover .hp_Title {
-  margin-bottom: 24px;
+  margin-bottom: 1.5em;
 }
 
 .hp_Cover-msg {
   color: white;
-  padding: 24px;
+  padding: 1.5em;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -28,14 +28,14 @@
 }
 
 /* Medium >= 768px and < 992px */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 48em) {
   .hp_Cover-msg {
     text-align: center;
   }
 }
 
 /* Large >= 992px and < 1200px */
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 62em) {
   .hp_Cover {
     height: auto;
     background-image: url(./../images/puppiness.jpg);

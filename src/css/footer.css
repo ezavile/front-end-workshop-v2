@@ -1,7 +1,7 @@
 .hp_Footer {
   background-color: #3370bc;
   color: white;
-  padding: 24px;
+  padding: 1.5em;
 }
 
 .hp_Footer-copy,
@@ -11,16 +11,16 @@
 }
 
 .hp_Footer-copy {
-  font-size: 10px;
+  font-size: 0.625em;
 }
 
 .hp_Footer-socialNetwork {
   float: right;
-  font-size: 16px;
+  font-size: 1em;
 }
 
 .hp_Footer-socialNetwork-item {
-  margin: 0 4px;
+  margin: 0 0.25em;
   transition: color 0.5s ease;
 }
 

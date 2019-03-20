@@ -1,10 +1,10 @@
 .hp_Title-container {
-  padding: 24px;
+  padding: 1.5em
 }
 
 .hp_Title {
-  font-size: 32px;
-  padding-bottom: 8px;
+  font-size: 2em;
+  padding-bottom: 0.25em;
   position: relative;
   line-height: 1;
 }
@@ -15,12 +15,12 @@
   position: absolute;
   left: 0;
   bottom: 0;
-  width: 70px;
+  width: 4.375em;
   height: 2px;
 }
 
 /* Medium >= 768px and < 992px */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 48em) {
   .hp_Title-container {
     text-align: center;
   }
