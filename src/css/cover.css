@@ -1,0 +1,52 @@
+.hp_Cover {
+  height: 100vh;
+  background-image: url(../images/cover.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.hp_Cover .hp_Title {
+  margin-bottom: 1.5em;
+}
+
+.hp_Cover-msg {
+  color: white;
+  padding: 1.5em;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.hp_Cover-video {
+  display: none;
+}
+
+/* Medium >= 768px and < 992px */
+@media screen and (min-width: 48em) {
+  .hp_Cover-msg {
+    text-align: center;
+  }
+}
+
+/* Large >= 992px and < 1200px */
+@media screen and (min-width: 62em) {
+  .hp_Cover {
+    height: auto;
+    background-image: url(./../images/puppiness.jpg);
+  }
+
+  .hp_Cover-msg {
+    display: none;
+  }
+
+  .hp_Cover-video {
+    display: block;
+    width: 100%;
+  }
+}

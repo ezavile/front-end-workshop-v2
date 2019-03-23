@@ -1,0 +1,16 @@
+.hp_ListCampaigns {
+  max-width: 87.5em;
+  margin: 0 auto;
+  padding: 0 1.5em 1.5em;
+}
+
+/* Large >= 992px and < 1200px */
+@media screen and (min-width: 62em) {
+  .hp_ListCampaigns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+
+/* Extra large >= 1200px */ 

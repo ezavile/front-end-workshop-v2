@@ -1,0 +1,87 @@
+.hp_CampaignCard {
+  background-color: white;
+  box-shadow: 2px 0 1.25em 0 rgba(0, 0, 0, 0.1);
+  margin-top: 1.5em;
+  padding: 14em 1.5em 1.5em;
+  position: relative;
+}
+
+.hp_CampaignCard:first-child {
+  margin-top: 0;
+}
+
+.hp_CampaignCard-cover {
+  background-image: url(https://duaw26jehqd4r.cloudfront.net/items/1M0C3r3X2t0x2q342A2A/benito.png?v=933367f2);
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 12.5em;
+}
+
+.hp_CampaignCard-header {
+  margin-bottom: 1em;
+}
+
+.hp_CampaignCard-title {
+  font-size: 1.5em;
+}
+
+.hp_CampaignCard-meta {
+  font-size: 0.85em;
+}
+
+.hp_CampaignCard-date {
+  margin-right: 0.25em;
+}
+
+.hp_CampaignCard-tag {
+  color: white;
+  background-color: #72c02c;
+  padding: 1px 0.375em;
+}
+
+.hp_CampaignCard-tag::before {
+  font-family: 'hopets';
+  content: "\e904";
+  margin-right: 0.375em;
+}
+
+.hp_CampaignCard-summary {
+  margin-bottom: 1em;
+}
+
+.hp_CampaignCard-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Extra small < 576px (by default) */
+
+/* Small >= 576px and < 768px */
+@media screen and (min-width: 36em) {
+  .hp_CampaignCard {
+    padding-top: 1.5em;
+    padding-left: 14em;
+  }
+
+  .hp_CampaignCard-cover {
+    height: 100%;
+    width: 12.5em;
+  }
+}
+
+/* Large >= 992px and < 1200px */
+@media screen and (min-width: 62em) {
+  .hp_CampaignCard {
+    width: calc(50% - 0.75em);
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .hp_CampaignCard:nth-child(2) {
+    margin-top: 0;
+  }
+}
