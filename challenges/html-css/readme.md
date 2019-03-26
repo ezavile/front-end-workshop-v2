@@ -4,7 +4,7 @@ Welcome to my workshop about how to become a Front-End developer. The best way t
 
 ___
 
-### 1. CSS/HTML Challenge
+### 1. HTML/CSS Challenge
 
 You have to create a repo in your profile named **html-css-challenge** and you must to [create a Pull Request](https://help.github.com/articles/creating-a-pull-request/) and assign me as reviewer in order to give you a feedback.
 
@@ -33,4 +33,3 @@ For the first project, you should create a simple page about yourself. You can t
 - relative units
 - mobile first
 - media query
-   
