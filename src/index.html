@@ -19,9 +19,8 @@
   <link href="./css/list-campaigns.css" rel="stylesheet">
   <link href="./css/campaign-card.css" rel="stylesheet">
   <link href="./css/footer.css" rel="stylesheet">
-  <script src="./js/13-ready.js"></script>
 </head>
-<body style="background-color: #f1f1f1;" onload="domReady()">
+<body style="background-color: #f1f1f1;">
   <header class="hp_Header">
     <img class="hp_Header-logo" src="./images/logo.svg" alt="" >
     <nav class="hp_Header-menu">
@@ -55,7 +54,7 @@
         <h2 class="hp_Title">Recent Campaigns</h2>
       </div>
       <div class="hp_ListCampaigns">
-        <article class="hp_CampaignCard">
+        <article id="card-one" class="hp_CampaignCard">
           <div class="hp_CampaignCard-cover"></div>
           <div class="hp_CampaignCard-body">
             <div class="hp_CampaignCard-header">
@@ -170,6 +169,6 @@
     <script src="./js/10-functions.js"></script>
     <script src="./js/11-prototypes.js"></script>
   -->
-  <script>getBodyText()</script>
+  <script src="./js/14-get-elements.js"></script>
 </body>
 </html>
