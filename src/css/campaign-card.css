@@ -6,6 +6,10 @@
   position: relative;
 }
 
+.hp_CampaignCard.is-disabled {
+  opacity: 0.4;
+}
+
 .hp_CampaignCard:first-child {
   margin-top: 0;
 }
