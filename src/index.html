@@ -152,23 +152,12 @@
       </li>
     </ul>
   </footer>
-  <!-- JavaScript Intro -->
-  <!--
-    <script>
-      var imAGlobalVariable = 'Hopets';
-    </script>
-    <script src="./js/01-global-execution-context.js"></script>
-    <script src="./js/02-creation-hoisting.js"></script>
-    <script src="./js/03-execution-context.js"></script>
-    <script src="./js/04-scope-chain.js"></script>
-    <script src="./js/05-expression-and-statement.js"></script>
-    <script src="./js/06-data-types.js"></script>
-    <script src="./js/07-objects.js"></script>
-    <script src="./js/08-this.js"></script>
-    <script src="./js/09-arrays.js"></script>
-    <script src="./js/10-functions.js"></script>
-    <script src="./js/11-prototypes.js"></script>
-  -->
-  <script src="./js/18-event-loop.js"></script>
+  <script src="./js/18-module-pattern/user-name-element.js"></script>
+  <script src="./js/18-module-pattern/image-element.js"></script>
+  <script src="./js/18-module-pattern/avatar-element.js"></script>
+  <script>
+    var avatar = AvatarElement.render({pictureUrl: 'https://randomuser.me/api/portraits/men/2.jpg', userName: 'Edgar Zavala'});
+    document.querySelector('.hp_Avatar').replaceWith(avatar);
+  </script>
 </body>
 </html>
