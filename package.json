@@ -1,0 +1,34 @@
+{
+  "name": "front-end-workshop-v2",
+  "version": "2.0.0",
+  "description": "A very hands on workshop about essential tools and technologies to become a Front-End Developer [Second Version].",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ezavile/front-end-workshop-v2.git"
+  },
+  "keywords": [
+    "front-end",
+    "html",
+    "css",
+    "javascript",
+    "react",
+    "es6",
+    "bootcamp"
+  ],
+  "author": "Edgar Zavala <ezavile@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ezavile/front-end-workshop-v2/issues"
+  },
+  "homepage": "https://github.com/ezavile/front-end-workshop-v2#readme",
+  "dependencies": {
+    "reset-css": "4.0.1"
+  },
+  "devDependencies": {
+    "parcel-bundler": "1.12.3"
+  }
+}
