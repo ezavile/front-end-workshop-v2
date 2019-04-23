@@ -13,6 +13,18 @@ require('./css/campaign-card.css');
 require('./css/footer.css');
 
 var TitleElement = React.createElement('h1', {}, 'Welcome to Hopets!');
+
+var Card = function(props) {
+  var name = React.createElement('h3', {}, props.name);
+  var details = React.createElement('p', {}, props.details);
+
+  return React.createElement('article', {}, [name, details]);
+};
+
+var CampaignAElement = React.createElement(Card, { name: 'Campaign A', details: 'details about campaign A...' });
+var CampaignBElement = React.createElement(Card, { name: 'Campaign B', details: 'details about campaign B...' });
+
+var AppElement = React.createElement('div', {}, [TitleElement, CampaignAElement, CampaignBElement]);
 var container = document.getElementById('root');
 
-ReactDOM.render(TitleElement, container);
+ReactDOM.render(AppElement, container);
