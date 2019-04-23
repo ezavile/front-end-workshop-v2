@@ -11,3 +11,8 @@ require('./css/avatar.css');
 require('./css/list-campaigns.css');
 require('./css/campaign-card.css');
 require('./css/footer.css');
+
+var TitleElement = React.createElement('h1', {}, 'Welcome to Hopets!');
+var container = document.getElementById('root');
+
+ReactDOM.render(TitleElement, container);
